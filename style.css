@@ -1,0 +1,31 @@
+body {
+    background-color: lightblue;
+}
+
+#p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin: 50px;
+    text-align: center;
+    margin:90px;
+}
+
+#birthday {
+    text-align:center; 
+    border:5px solid 
+    rgb(16, 26, 16);
+    margin: 500px;
+    margin-top:10px;
+    width: 100px;
+    position:absolute; 
+    
+    
+};
+
+#type {
+    
+    text-align: center;
+    margin: auto;
+    position: relative;
+    
+}

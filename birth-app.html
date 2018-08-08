@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head> 
+
+
+
+<body>
+         
+<p id="p">Find my year of birth:</p>
+         
+<div id="typeYourAge">
+
+    <input placeholder="type your age" id="age" type="number"/>
+
+</div>
+         
+<div id="birthday">
+        
+    <button onclick="myFunction()">Find</button>
+</div>
+         
+         
+<script>
+         
+    function myFunction() {
+             
+            const age =  document.getElementById("age").value;
+            const birthYear = new Date().getFullYear() - age;
+            
+            document.getElementById("birthday").innerHTML = `Your were born in  ${birthYear}`; 
+            //"You were born in " + " " + birthYear;
+         }
+         
+</script>
+         
+</body>
+</html>
+         
